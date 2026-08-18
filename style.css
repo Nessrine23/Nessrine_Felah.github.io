@@ -366,4 +366,41 @@ footer {
     }
 
 }
+/* =========================
+   SCROLL ANIMATION
+========================= */
+
+section {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+section.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/* =========================
+   ACTIVE NAV LINK
+========================= */
+
+nav ul li a.active {
+    color: #8b5cf6;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+    section {
+        opacity: 1;
+        transform: none;
+    }
+
+}
 ```
