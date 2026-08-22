@@ -753,4 +753,23 @@ section:not(#home).show {
     background: #8b5cf6;
 
     color: white;
+} /* =========================
+   PROJECT AWARD
+========================= */
+
+.project-award {
+    display: inline-block;
+
+    margin: 5px 0 20px 0;
+    padding: 8px 16px;
+
+    border-radius: 20px;
+
+    background: rgba(139, 92, 246, 0.15);
+    border: 1px solid #8b5cf6;
+
+    color: #c4b5fd;
+
+    font-size: 15px;
+    font-weight: bold;
 }
