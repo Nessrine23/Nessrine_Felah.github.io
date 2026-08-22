@@ -773,3 +773,173 @@ section:not(#home).show {
     font-size: 15px;
     font-weight: bold;
 }
+/* =========================
+   AWARD BUTTON
+========================= */
+
+.award-button {
+    display: inline-block;
+
+    margin-top: 25px;
+    margin-bottom: 10px;
+
+    padding: 14px 25px;
+
+    background: #8b5cf6;
+
+    color: #ffffff;
+
+    border-radius: 30px;
+
+    font-weight: bold;
+
+    transition: 0.3s ease;
+}
+
+.award-button:hover {
+    background: #7c3aed;
+
+    transform: translateY(-3px);
+}
+
+
+/* =========================
+   AWARD SUBTITLE
+========================= */
+
+.award-subtitle {
+    color: #b8b8c7;
+
+    font-size: 16px;
+
+    margin-bottom: 40px;
+}
+
+
+/* =========================
+   AWARD SECTION
+========================= */
+
+#award {
+    background: #10101d;
+
+    padding: 80px 8%;
+
+    border-radius: 20px;
+
+    margin-top: 30px;
+}
+
+#award h2 {
+    font-size: 40px;
+
+    margin-bottom: 25px;
+}
+
+#award > p {
+    max-width: 850px;
+
+    color: #b8b8c7;
+
+    font-size: 18px;
+
+    line-height: 1.8;
+
+    margin-bottom: 20px;
+}
+
+
+/* =========================
+   AWARD GALLERY
+========================= */
+
+.award-gallery {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 25px;
+
+    margin-top: 40px;
+}
+
+
+/* =========================
+   AWARD IMAGE
+========================= */
+
+.award-image {
+    background: #171725;
+
+    border: 1px solid #252538;
+
+    border-radius: 15px;
+
+    overflow: hidden;
+
+    transition: 0.3s ease;
+}
+
+.award-image:hover {
+    transform: translateY(-8px);
+
+    border-color: #8b5cf6;
+
+    box-shadow:
+        0 15px 40px
+        rgba(139, 92, 246, 0.15);
+}
+
+
+/* =========================
+   IMAGE
+========================= */
+
+.award-image img {
+    width: 100%;
+
+    height: 300px;
+
+    object-fit: cover;
+
+    display: block;
+}
+
+
+/* =========================
+   IMAGE CAPTION
+========================= */
+
+.award-image p {
+    text-align: center;
+
+    padding: 15px;
+
+    margin: 0;
+
+    color: #b8b8c7;
+
+    font-size: 15px;
+}
+
+
+/* =========================
+   AWARD RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+
+    .award-gallery {
+        grid-template-columns: 1fr;
+    }
+
+    #award h2 {
+        font-size: 32px;
+    }
+
+    .award-image img {
+        height: 280px;
+    }
+
+}
