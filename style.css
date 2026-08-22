@@ -696,3 +696,61 @@ section:not(#home).show {
         font-size: 30px;
     }
 }
+/* =========================
+   PROJECT BUTTONS
+========================= */
+
+.project-buttons {
+
+    display: flex;
+
+    gap: 12px;
+
+    margin-top: 20px;
+
+    flex-wrap: wrap;
+}
+
+
+.project-button {
+
+    display: inline-block;
+
+    padding: 10px 20px;
+
+    border-radius: 25px;
+
+    background: #8b5cf6;
+
+    color: white;
+
+    font-size: 14px;
+
+    transition: 0.3s ease;
+}
+
+
+.project-button:hover {
+
+    background: #7c3aed;
+
+    transform: translateY(-3px);
+}
+
+
+.project-button.secondary {
+
+    background: transparent;
+
+    border: 1px solid #8b5cf6;
+
+    color: #8b5cf6;
+}
+
+
+.project-button.secondary:hover {
+
+    background: #8b5cf6;
+
+    color: white;
+}
